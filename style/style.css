@@ -61,7 +61,7 @@ h1 {
 
 
 #btn-blue {
-  background-color: blue;
+  background-color: red;
   text-decoration: none;
   color: white;
   padding: 16px;
@@ -70,13 +70,13 @@ h1 {
   width: 150px;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid blue;
+  border: 1px solid red;
   transition: 1s;
 }
 
 #btn-blue:hover {
   background-color: white;
-  color: blue;
+  color: red;
   transition: 1s;
 }
 
