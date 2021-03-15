@@ -95,6 +95,7 @@ h1 {
   height: 10vh;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 .navbar-msc img {
@@ -114,6 +115,41 @@ h1 {
   text-transform: uppercase;
 }
 
-.photos {
+@media (max-width: 600px) {
+  /*.cards {
+    grid-template-columns: 1fr;
+  }*/
+  .navbar-msc img {
+    width: 30%;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 600px) {
+  /*.cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }*/
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
 
 }
